@@ -133,6 +133,14 @@ for await (const pos of positions(RIDE_UUID)) {
 ```
 
 
+## Related
+
+- [`live-icomera-position`](https://github.com/derhuerst/live-icomera-position) – Live vehicle geolocation, taken from the on-board Icomera WiFi system.
+- [`live-gomedia-position`](https://github.com/derhuerst/live-gomedia-position) – Live vehicle geolocation, taken from the GoMedia on-board WiFi entertainment system.
+- [`live-cd-wifi-position`](https://github.com/derhuerst/live-cd-wifi-position) – Live vehicle geolocation of Czech Railways trains, taken from the on-board WiFi system.
+- [`wifi-on-ice-position-stream`](https://github.com/derhuerst/wifi-on-ice-position-stream) – A stream of positions of German Railways ICE trains, taken from the on-board WiFi.
+
+
 ## Contributing
 
 If you have a question or need support using `live-flix-website-position`, please double-check your code and setup first. If you think you have found a bug or want to propose a feature, use [the issues page](https://github.com/derhuerst/live-flix-website-position/issues).

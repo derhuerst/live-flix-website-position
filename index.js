@@ -33,6 +33,7 @@ const fetchTrip = async (rideUuid, fetchOpts = {}) => {
 	const url = `${endpoint}/v2/ride/${rideUuid}/trip-info/live`
 
 	const _ = await fetchJson(url, fetchOpts)
+	// todo: transform to FPTF?
 	return _
 }
 
@@ -40,6 +41,7 @@ const fetchPosition = async (rideUuid, fetchOpts = {}) => {
 	const url = `${endpoint}/v1/ride/${rideUuid}/tracking`
 
 	const _ = await fetchJson(url, fetchOpts)
+	// todo: transform to FPTF?
 	return _
 }
 
